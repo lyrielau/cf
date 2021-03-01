@@ -8,7 +8,7 @@ remoteport=443
 
 	declare -i bandwidth
 	declare -i speed
-	bandwidth=100
+	bandwidth=24
 	speed=bandwidth*128*1024
 	starttime=`date +'%Y-%m-%d %H:%M:%S'`
 
