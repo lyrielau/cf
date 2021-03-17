@@ -4,8 +4,9 @@ localport=8443
 remoteport=443
 declare -i bandwidth
 declare -i speed
+bandwidth=30
 
-bandwidth=30speed=bandwidth*128*1024
+speed=bandwidth*128*1024
 starttime=`date +'%Y-%m-%d %H:%M:%S'`
 while true
 do
